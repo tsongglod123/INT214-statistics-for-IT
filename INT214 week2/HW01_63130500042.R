@@ -1,10 +1,10 @@
 # ex 1
 numbers <- c(10.4, 5.6, 3.1, 6.4, 21.7)
-cat("avg:", mean(numbers), "\n")
-cat("sum:",sum(numbers), "\n")
-cat("med:",median(numbers), "\n")
-cat("sd:",sd(numbers), "\n")
-cat("var:",var(numbers), "\n")
+cat("avg:", mean(numbers))
+cat("sum:",sum(numbers))
+cat("med:",median(numbers))
+cat("sd:",sd(numbers))
+cat("var:",var(numbers))
 
 # ex2
 # List of Marvel movies (Order by Marvel Phase released)
