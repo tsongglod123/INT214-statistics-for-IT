@@ -44,6 +44,7 @@ max_mid_score <- std_room %>%
     select(-final_score)
 glimpse(max_mid_score)
 
+# incomplete
 max_total_score <- std_room %>%
     mutate(mid_score = coalesce(mid_score, 0)) %>%
     mutate(final_score = coalesce(final_score, 0)) %>%
